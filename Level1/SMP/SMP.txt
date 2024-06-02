@@ -1,0 +1,7 @@
+The Stable Marriage Problem (SMP) aims to optimally match equal numbers of men and women with each other. The goal is to find stable matches such that no individual prefers a better match with another individual.
+
+In this problem, each individual generates a preference ranking for the individuals in the opposite-sex group. The Gale-Shapley algorithm uses these preferences to find stable matches. The algorithm works as follows: 
+
+First, all men propose to the top-ranked women according to their preference ranking. Each woman “provisionally” accepts the man she prefers most and rejects all other proposals. The rejected men propose to the next woman on their list. This process continues until all men are accepted. If a woman receives an offer from a man she prefers more than the man she previously accepted, she rejects the previous man and accepts the new offer.
+
+At the end of these steps, a stable match is formed. The Gale-Shapley algorithm guarantees to always find a stable match. SMP is used in many fields such as job and school placements, matchmaking services and organ transplant matches.

@@ -1,0 +1,5 @@
+Breadth-first search (BFS) is an algorithm for finding the shortest path in a graph or tree structure. Starting from the initial node, it first explores the neighbors of that node, then the neighbors of those neighbors. This process continues until the goal node is found or all nodes have been visited.
+
+BFS works using a queue. First, we mark the start node as visited and add it to the queue. A node is removed from the queue, processed and checked if it is a destination. The unvisited neighbors of the processed node are added to the queue. These steps are repeated until the queue is empty or the destination node is found.
+
+BFS is effective for shortest path problems because it stops as soon as it reaches the destination node and therefore finds the shortest path. However, memory usage can increase for large graphs. BFS is widely used in areas such as network navigation and social network analysis.
